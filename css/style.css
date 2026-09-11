@@ -1,0 +1,15 @@
+h1{
+    color: rgba(165, 42, 42, 0.363);
+}
+p{
+    color: green; 
+}
+h2{
+    color: rosybrown;
+}
+#myBtn{
+    width: 100px;
+    height: 100px;
+    border: 5px solid  rgb(111, 52, 189); /*done, just need to reload*/
+    border-radius: 40px;
+};

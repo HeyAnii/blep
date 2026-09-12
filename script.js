@@ -1,3 +1,4 @@
+
 let g = "Hi, i'm a g string"; //string "" or '' does the same thing
 let b = 25; // integer
 let c = 15.5; // float (but js consider float as integer anyway)
@@ -32,18 +33,35 @@ for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 
-// color things
+// // color things
 const btn = document.getElementById("myBtn"); // iniatilisation of variables
 const selector = document.getElementById("selector");
 selector.value = "#db909000";
 
 btn.addEventListener("click", function () { // event listeners waiting for stuff to happen
   if (btn.style.backgroundColor == "blue") { // test
-    btn.style.backgroundColor = selector.value; // instructions 
+    btn.style.backgroundColor = selector.value; // instructions
   } else {
     btn.style.backgroundColor = "blue";
   }
 });
 selector.addEventListener("change", function () {
-  btn.style.backgroundColor = selector.value;// instructions 
+  btn.style.backgroundColor = selector.value;// instructions
 });
+
+const btnAni = document.getElementById("AniButton");
+const selectorAni = document.getElementById("SelectorAni");
+selectorAni.value = "#ad737300";
+ //selectorAni.style.opacity = "10%";
+
+
+btnAni.addEventListener("click",function () {
+   if (btnAni.style.backgroundColor == "green") {
+    btnAni.style.backgroundColor =selectorAni.value;
+   }else {
+      btnAni.style.backgroundColor = "green";
+    } 
+    
+  })
+
+

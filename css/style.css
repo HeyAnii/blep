@@ -20,6 +20,6 @@ img{
 #AniButton{
     width: 150px;
     height:auto;
-    border: 5px dotted rgb(224, 80, 200);
+    border: 50px dotted rgb(224, 80, 200);
     border-radius: 10px;
 }
